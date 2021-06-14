@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+
+@model Lab_task_2.Models.Department
+
+
+<h2>Create</h2>
+<div>
+    <form action="/Department/Add" method="post">
+        <input type="text" name="Name" class="form-control" placeholder="CSE..">
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        <input type="submit" class="btn btn-block" value="Add" />
+    </form>
+</div>
+

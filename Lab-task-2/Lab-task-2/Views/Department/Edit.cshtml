@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+@model Lab_task_2.Models.Department
+<h2>Edit</h2>
+<div>
+    <form action="" method="post">
+        <input type="hidden" name="Id" value="@Model.Id">
+        <input type="text" name="Name" value="@Model.Name" class="form-control" placeholder="name..">
+        <input type="submit" class="btn btn-block" value="Edit" />
+    </form>
+</div>

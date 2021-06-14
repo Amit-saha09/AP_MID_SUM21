@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@model List<Lab_task_2.Models.Department>
+
+<div class="container">
+    <table class="table table-condensed">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            
+            <th>Action</th>
+            
+        </tr>
+        @foreach (var department in @Model)
+        {
+            <tr>
+                <td>@department.Id</td>
+                <td>@department.Name</td>
+                
+                <td colspan="2"><a class="btn btn-success" href="/Department/Edit/@department.Id">Edit</a>
+                <a class="btn btn-danger" href="/Department/Delete/@department.Id">Delete</a></td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+

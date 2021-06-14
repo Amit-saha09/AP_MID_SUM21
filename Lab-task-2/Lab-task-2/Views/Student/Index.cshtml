@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@model List<Lab_task_2.Models.Student>
+
+<div class="container">
+    <table class="table table-condensed">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Credit</th>
+            <th>Cgpa</th>
+            <th>Deptid</th>
+            <th></th>
+            <th></th>
+        </tr>
+        @foreach (var student in @Model)
+        {
+    <tr>
+        <td>@student.Id</td>
+        <td>@student.Name</td>
+        <td>@student.Dob</td>
+        <td>@student.Credit</td>
+        <td>@student.CGPA</td>
+        <td>@student.Deptid</td>
+        <td><a class="btn btn-success" href="/Student/Edit/@student.Id">Edit</a></td>
+        <td><a class="btn btn-danger" href="/Student/Delete/@student.Id">Delete</a></td>
+    </tr>
+        }
+
+    </table>
+</div>
+
+
+
+
