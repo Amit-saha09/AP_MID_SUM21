@@ -1,0 +1,98 @@
+<div id="page-wrapper">
+		<div class="container-fluid">
+			<div class="row bg-title">
+				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+					<h4 class="page-title">Add Product</h4>
+				</div>
+				<div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+
+					<ol class="breadcrumb">
+						<li><a href="#">Dashboard</a></li>
+						<li class="active">Add Product</li>
+					</ol>
+				</div>
+			</div>
+		<div class="col-md-8 col-xs-12">
+			<div class="white-box">
+				<form>
+					<div class="row">
+						<div class="input-field col s6">
+
+							<input type="text"  ng-model="p.Name" class="validate" required>
+							<label class="">Name</label>
+						</div>
+						<div class="input-field col s6">
+							<select style="display:block" ng-model="p.CategoryId" class="" name="">
+							  <option ng-repeat="d in category" value="{{d.Id}}">{{d.Name}}</option>
+							</select>
+						</div>
+						<div class="input-field col s6">
+
+							<input type="number"  ng-model="p.Price" class="validate" required>
+							<label class="">Price</label>
+						</div>
+						
+						<div class="input-field col s6">
+
+							<input type="number"  ng-model="p.Qty" class="validate" required>
+							<label class="">Quantity</label>
+						</div>
+						
+						<div class="input-field col s6">
+
+							<input type="text"  ng-model="p.Description" class="validate" required>
+							<label class="">Description</label>
+						</div>
+					
+						
+						<div class="input-field col s6">
+
+							<input type="datetime"  ng-model="p.Created_at" class="validate" required>
+							<label class="">Created at</label>
+						</div>
+						<div class="input-field col s6">
+
+							<input type="datetime"  ng-model="p.Updated_at" class="validate" required>
+							<label class="">Updated at</label>
+						</div>
+						
+						<div class="input-field col s6">
+
+							<input type="datetime"  ng-model="p.Deleted_at" class="validate" required>
+							<label class="">Deleted at</label>
+						</div>
+
+						<div class="input-field col s6">
+
+							<input type="text"  ng-model="p.Created_by" class="validate" required>
+							<label class="">Created By</label>
+						</div>
+						
+						<div class="input-field col s6">
+
+							<input type="text" ng-model="p.Updated_by" class="validate" required>
+							<label class="">Updated By</label>
+						</div>
+						<div class="input-field col s6">
+
+							<input type="text"  ng-model="p.Deleted_by" class="validate" required>
+							<label class="">Deleted By</label>
+						</div>
+						
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input type="submit" ng-click="addproduct(p)" class="waves-button-input">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+        </div>
+            <!-- /.container-fluid -->
+            <footer class="footer text-center"> 2021 &copy; InraBd </footer>
+        </div>
+
+</div>

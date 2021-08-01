@@ -8,23 +8,23 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-   public class ProductService
+    public class ProductService
     {
-        public static void AddProduct(ProductDetails model)
+        public static void AddProduct(ProductModel model)
         {
-            var data = AutoMapper.Mapper.Map<ProductDetails, Product>(model);
+            var data = AutoMapper.Mapper.Map<ProductModel, Product>(model);
             ProductRepo.AddProduct(data);
         }
-        public static ProductDetails GetProduct(int id)
+        public static ProductModel GetProduct(int id)
         {
             var data = ProductRepo.GetProduct(id);
-            var st = AutoMapper.Mapper.Map<Product, ProductDetails>(data);
+            var st = AutoMapper.Mapper.Map<Product, ProductModel>(data);
             return st;
         }
-        public static List<ProductDetails> GetAllProducts()
+        public static List<ProductModel> GetAllProducts()
         {
             var data = ProductRepo.GetAllProducts();
-            var st = AutoMapper.Mapper.Map<List<Product>, List<ProductDetails>>(data);
+            var st = AutoMapper.Mapper.Map<List<Product>, List<ProductModel>>(data);
             return st;
         }
 

@@ -11,6 +11,6 @@ namespace BEL
         public int Id { get; set; }
         public string Name { get; set; }
 
-        public virtual ICollection<ProductDetails> ProductDetails { get; set; }
+        public ICollection<ProductDetails> Products { get; set; }
     }
 }

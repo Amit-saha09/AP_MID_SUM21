@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{599E1BB4-AAD3-40D5-9AB9-E190964CB614}</ProjectGuid>
+    <ProjectGuid>{F4AED288-1B63-4737-A737-630F64648B7A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLL</RootNamespace>
@@ -47,17 +47,17 @@
   <ItemGroup>
     <Compile Include="CategoryService.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="MapperConfig\AutoMapperSetting.cs" />
+    <Compile Include="MapperConfig\AutoMapperSettings.cs" />
     <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BEL\BEL.csproj">
-      <Project>{2dcded60-cfed-49b2-b71c-f5ed4144f619}</Project>
+      <Project>{372d840a-19bc-4e41-a35f-311b3d569a57}</Project>
       <Name>BEL</Name>
     </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{5c1fcda5-d7cf-4f00-9dab-6cb601443893}</Project>
+      <Project>{1417ce74-6937-4164-8429-15b6496713ac}</Project>
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>

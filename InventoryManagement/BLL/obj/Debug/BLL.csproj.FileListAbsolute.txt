@@ -1,16 +1,16 @@
-H:\Project\InventoryManagement\BLL\bin\Debug\BLL.dll
-H:\Project\InventoryManagement\BLL\bin\Debug\BLL.pdb
-H:\Project\InventoryManagement\BLL\bin\Debug\BEL.dll
-H:\Project\InventoryManagement\BLL\bin\Debug\DAL.dll
-H:\Project\InventoryManagement\BLL\bin\Debug\EntityFramework.dll
-H:\Project\InventoryManagement\BLL\bin\Debug\BEL.pdb
-H:\Project\InventoryManagement\BLL\bin\Debug\DAL.pdb
-H:\Project\InventoryManagement\BLL\bin\Debug\DAL.dll.config
-H:\Project\InventoryManagement\BLL\bin\Debug\EntityFramework.xml
-H:\Project\InventoryManagement\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
-H:\Project\InventoryManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-H:\Project\InventoryManagement\BLL\obj\Debug\BLL.csproj.CopyComplete
-H:\Project\InventoryManagement\BLL\obj\Debug\BLL.dll
-H:\Project\InventoryManagement\BLL\obj\Debug\BLL.pdb
-H:\Project\InventoryManagement\BLL\bin\Debug\AutoMapper.dll
-H:\Project\InventoryManagement\BLL\bin\Debug\AutoMapper.xml
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\BLL.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\BLL.pdb
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\AutoMapper.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\BEL.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\DAL.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\EntityFramework.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\BEL.pdb
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\DAL.pdb
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\DAL.dll.config
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\AutoMapper.xml
+H:\Project\New folder (2)\InventoryManagement\BLL\bin\Debug\EntityFramework.xml
+H:\Project\New folder (2)\InventoryManagement\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\Project\New folder (2)\InventoryManagement\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\Project\New folder (2)\InventoryManagement\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\Project\New folder (2)\InventoryManagement\BLL\obj\Debug\BLL.dll
+H:\Project\New folder (2)\InventoryManagement\BLL\obj\Debug\BLL.pdb

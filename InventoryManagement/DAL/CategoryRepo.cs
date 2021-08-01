@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class CategoryRepo
+   public class CategoryRepo
     {
+
         static InventoryManagementEntities context;
         static CategoryRepo()
         {

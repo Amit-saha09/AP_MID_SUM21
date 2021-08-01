@@ -1,10 +1,9 @@
-﻿using System;
+﻿using BLL.MapperConfig;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using BLL.MapperConfig;
-
 
 namespace InventoryManagement
 {
@@ -23,10 +22,11 @@ namespace InventoryManagement
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            
-            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
-            config.EnableCors(cors);
-          //  AutoMapper.Mapper.Initialize(con => con.AddProfile<AutoMapperSetting>());
+            //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            // EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors();
+            AutoMapper.Mapper.Initialize(con => con.AddProfile<AutoMapperSettings>());
+
         }
     }
 }

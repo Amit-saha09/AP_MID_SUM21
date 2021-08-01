@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ProductRepo
+   public class ProductRepo
     {
         static InventoryManagementEntities context;
         static ProductRepo()
@@ -34,7 +34,5 @@ namespace DAL
             var data = context.Products.Select(e => e.Name).ToList();
             return data;
         }
-
-
     }
 }

@@ -6,23 +6,24 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-
+using System.Web.Http.Cors;
 namespace InventoryManagement.Controllers
 {
+   [ EnableCorsAttribute("*","*","*")]
     public class ProductController : ApiController
     {
         [Route("api/Product/GetAll")]
-        public List<ProductDetails> GetAllProducts()
+        public List<ProductModel> GetAllProducts()
         {
             return ProductService.GetAllProducts();
         }
         [Route("api/Product/{id}")]
-        public ProductDetails GetProduct(int id)
+        public ProductModel GetProduct(int id)
         {
             return ProductService.GetProduct(id);
         }
         [Route("api/Product/Add")]
-        public void AddProduct(ProductDetails model)
+        public void AddProduct(ProductModel model)
         {
             ProductService.AddProduct(model);
         }

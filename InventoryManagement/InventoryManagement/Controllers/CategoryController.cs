@@ -1,5 +1,4 @@
-﻿
-using BEL;
+﻿using BEL;
 using BLL;
 using System;
 using System.Collections.Generic;
@@ -7,9 +6,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace InventoryManagement.Controllers
 {
+    [EnableCorsAttribute("*", "*", "*")]
     public class CategoryController : ApiController
     {
         [Route("api/Category/Names")]
@@ -20,13 +21,13 @@ namespace InventoryManagement.Controllers
         }
         [Route("api/Category/GetAll")]
         [HttpGet]
-        public List<CategoryDetails> GetAllCategorys()
+        public List<CategoryModel> GetAllCategorys()
         {
             return CategoryService.GetCategorys();
         }
         [Route("api/Category/Add")]
         [HttpPost]
-        public void Add(CategoryDetails cat)
+        public void Add(CategoryModel cat)
         {
             CategoryService.AddCategory(cat);
         }
@@ -40,6 +41,5 @@ namespace InventoryManagement.Controllers
         {
             return CategoryService.GetCategoryDetail(id);
         }
-
     }
 }

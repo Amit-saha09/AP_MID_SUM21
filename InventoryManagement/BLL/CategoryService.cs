@@ -14,10 +14,10 @@ namespace BLL
         {
             return CategoryRepo.GetCategoryNames();
         }
-        public static List<CategoryDetails> GetCategorys()
+        public static List<CategoryModel> GetCategorys()
         {
             var Categorys = CategoryRepo.GetCategorys();
-            var data = AutoMapper.Mapper.Map<List<Category>, List<CategoryDetails>>(Categorys);
+            var data = AutoMapper.Mapper.Map<List<Category>, List<CategoryModel>>(Categorys);
             /* List<CategoryModel> data = new List<CategoryModel>();
              foreach (var d in Categorys) {
                  var dm = new CategoryModel()
@@ -29,9 +29,9 @@ namespace BLL
              }*/
             return data;
         }
-        public static void AddCategory(CategoryDetails dept)
+        public static void AddCategory(CategoryModel cat)
         {
-            var d = AutoMapper.Mapper.Map<CategoryDetails, Category>(dept);
+            var d = AutoMapper.Mapper.Map<CategoryModel, Category>(cat);
             //var d = new Category() { Id = dept.Id, Name = dept.Name };
             CategoryRepo.AddCategory(d);
         }
@@ -50,7 +50,6 @@ namespace BLL
             return dDetails;
 
         }
-
 
     }
 }

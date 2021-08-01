@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2DCDED60-CFED-49B2-B71C-F5ED4144F619}</ProjectGuid>
+    <ProjectGuid>{372D840A-19BC-4E41-A35F-311B3D569A57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BEL</RootNamespace>
@@ -42,15 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoryDetails.cs" />
-    <Compile Include="CategoryWithProducts.cs" />
-    <Compile Include="ProductDetails.cs" />
+    <Compile Include="CategoryModel.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{5c1fcda5-d7cf-4f00-9dab-6cb601443893}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
+    <Compile Include="ProductModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
