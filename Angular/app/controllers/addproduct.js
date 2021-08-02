@@ -9,7 +9,7 @@ app.controller("addproduct",function($scope,ajax,$location){
   });
 
   $scope.addproduct = function(p){
-     ajax.post(API_ROOT+"api/Product/Add",s,
+     ajax.post(API_ROOT+"api/Product/Add",p,
      function(resp){
           $location.path("/products");
      },function(err){});

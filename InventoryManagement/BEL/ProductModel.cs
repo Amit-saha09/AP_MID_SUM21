@@ -20,5 +20,7 @@ namespace BEL
         public string Created_by { get; set; }
         public string Updated_by { get; set; }
         public string Deleted_by { get; set; }
+
+        public int CategoryId { get; set; }
     }
 }
