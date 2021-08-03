@@ -1,0 +1,24 @@
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\DAL.dll.config
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\DAL.dll
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\DAL.pdb
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\EntityFramework.dll
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\EntityFramework.xml
+H:\Project\New folder (2)\InventoryManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
+H:\Project\New folder (2)\InventoryManagement\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+H:\Project\New folder (2)\InventoryManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\Project\New folder (2)\InventoryManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
+H:\Project\New folder (2)\InventoryManagement\DAL\obj\Debug\DAL.dll
+H:\Project\New folder (2)\InventoryManagement\DAL\obj\Debug\DAL.pdb
+H:\Project\InventoryManagement\DAL\bin\Debug\DAL.dll.config
+H:\Project\InventoryManagement\DAL\bin\Debug\DAL.dll
+H:\Project\InventoryManagement\DAL\bin\Debug\DAL.pdb
+H:\Project\InventoryManagement\DAL\bin\Debug\EntityFramework.dll
+H:\Project\InventoryManagement\DAL\bin\Debug\EntityFramework.SqlServer.dll
+H:\Project\InventoryManagement\DAL\bin\Debug\EntityFramework.xml
+H:\Project\InventoryManagement\DAL\bin\Debug\EntityFramework.SqlServer.xml
+H:\Project\InventoryManagement\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+H:\Project\InventoryManagement\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\Project\InventoryManagement\DAL\obj\Debug\DAL.csproj.CopyComplete
+H:\Project\InventoryManagement\DAL\obj\Debug\DAL.dll
+H:\Project\InventoryManagement\DAL\obj\Debug\DAL.pdb

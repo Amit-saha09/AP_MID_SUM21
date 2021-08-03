@@ -1,0 +1,70 @@
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row bg-title">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                <h4 class="page-title">Products</h4>
+            </div>
+            <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+
+                <ol class="breadcrumb">
+                    <li><a href="#">Dashboard</a></li>
+                    <li class="active">Cart</li>
+                </ol>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /row -->
+
+       
+        <div class="center pull-right app-search hidden-sm hidden-xs m-r-10">
+            <input type="text" placeholder="Search..." class="form-control">
+            <a href="">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="white-box">
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    
+                                    <th>Name</th>
+                                    
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total Price</th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr ng-repeat="ca in cart">
+										
+                                    <td>{{ca.ProductName}}</td>
+                                    <td>{{ca.Price}}</td>
+                                    <td>{{ca.Qty}}</td>
+                                    <td>{{ca.TotalPrice}}</td>
+                                </tr>
+                            
+                                <tr><input type="submit" ng-click="PlaceOrder()" value="Add tocart"></td></tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+        <!-- /.container-fluid -->
+        <footer class="footer text-center"> 2021 &copy; InraBd </footer>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page Content -->
+    <!-- ============================================================== -->
+</div>
